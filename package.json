@@ -1,0 +1,13 @@
+{
+  "name": "FlashCard_Testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/duyenqa/FlashCard_Testing.git",
+  "author": "Ngô Thị Kim Duyên",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5"
+  },
+  "scripts": {}
+}
