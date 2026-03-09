@@ -18,6 +18,7 @@ class RegisterPage{
         const signUpButton = await this.page.waitForSelector('//button[text()="Đăng Ký"]', { state: 'visible' });
         await signUpButton.click();
         await this.page.waitForTimeout(3000);
+        await this.page.screenshot({ path: 'sign up screenshot.png' });
     }
 }
 export default RegisterPage;

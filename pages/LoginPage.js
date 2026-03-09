@@ -10,7 +10,8 @@ class LoginPage {
         await passwordField.fill(password);
         const loginButton = await this.page.waitForSelector("//button[text()='Đăng Nhập']", { state: 'visible' });
         await loginButton.click();
-        await this.page.waitForTimeout(5000);
+        await this.page.waitForTimeout(3000);
+        await this.page.screenshot({ path: 'log in screenshot.png' });
     }
 }
 export default LoginPage;
